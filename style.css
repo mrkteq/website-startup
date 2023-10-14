@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');   
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url(assets/products.jpeg) no-repeat center center fixed;
+  background-size: contain;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  text-align: left;
+  padding: 20px;
+}
+
+.icon-only {
+  width: 8rem;
+}
+
+.footer {
+  text-align: right;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem; 
+  color: #4aa7e4;
+  font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #4aa7e4; /* Set text color for visibility on the background */
+}
+
+.btn {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #4aa7e4;
+  border-color: #4aa7e4;
+}
+
+.btn-primary:hover {
+  background-color: #4aa7e4;
+  border-color: #4aa7e4;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  outline: 2px solid #4aa7e4;
+  outline-offset: 1px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
